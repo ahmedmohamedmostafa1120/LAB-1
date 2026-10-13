@@ -1,0 +1,33 @@
+<!-- 
+ 
+
+git config --global user.name "ahmedmohamedmostafa1120" >configure user name
+git config --global user.email "ahmed.mohamed.mostafa1120@gmail.com" >configure user email
+git config --global init.defaultBranch main  >configure default branch name
+git config --global core.editor "code --wait" >configure default editor
+git config --list > list all configuration settings
+ssh-keygen -t ed25519 -C "ahmed.mohamed.mostafa1120@gmail.com"> generate ssh key
+cat ~/.ssh/id_ed25519.pub >display the public key
+ssh -T git@github.com > test the connection to GitHub
+git init > initialize a new Git repository
+git remote add origin git@github.com:ahmedmohamedmostafa1120/LAB-1.git> add a remote repository
+touch MyCV.txt > create a new file
+git add . > stage all changes for commit
+git status > check the status of the repository
+git commit -m "Add CV" > commit the changes with a message
+git commit -am "Add CV info" > commit the changes with a message and stage all modified files
+git commit --amend  -am "Update CV" > amend the last commit with a new message and stage all modified files
+git commit -am "Add a bad skill" > commit the changes with a message and stage all modified files
+git reset --hard HEAD^ > reset the repository to the previous commit, discarding changes
+git push  > push the changes to the remote repository and set the upstream branch
+
+
+
+
+
+
+
+
+
+
+-->
